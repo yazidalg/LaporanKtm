@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Ngoding\\C#\\TUBES_KPL_KTM\\LaporanKtmTest\\LaporanKtmTest.csproj": {}
+    "C:\\Users\\fajar\\source\\repos\\tubesktmfix\\LaporanKtmTest\\LaporanKtmTest.csproj": {}
   },
   "projects": {
-    "D:\\Ngoding\\C#\\TUBES_KPL_KTM\\LaporanKtmTest\\LaporanKtmTest.csproj": {
+    "C:\\Users\\fajar\\source\\repos\\tubesktmfix\\LaporanKtmTest\\LaporanKtmTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ngoding\\C#\\TUBES_KPL_KTM\\LaporanKtmTest\\LaporanKtmTest.csproj",
+        "projectUniqueName": "C:\\Users\\fajar\\source\\repos\\tubesktmfix\\LaporanKtmTest\\LaporanKtmTest.csproj",
         "projectName": "LaporanKtmTest",
-        "projectPath": "D:\\Ngoding\\C#\\TUBES_KPL_KTM\\LaporanKtmTest\\LaporanKtmTest.csproj",
-        "packagesPath": "C:\\Users\\puris\\.nuget\\packages\\",
-        "outputPath": "D:\\Ngoding\\C#\\TUBES_KPL_KTM\\LaporanKtmTest\\obj\\",
+        "projectPath": "C:\\Users\\fajar\\source\\repos\\tubesktmfix\\LaporanKtmTest\\LaporanKtmTest.csproj",
+        "packagesPath": "C:\\Users\\fajar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fajar\\source\\repos\\tubesktmfix\\LaporanKtmTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\puris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fajar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -38,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -77,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
