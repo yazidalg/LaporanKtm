@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aaron\\Documents\\KPL-TugasBesar2\\LaporanKtm\\LaporanKtm.csproj": {}
+    "C:\\Users\\Aaron\\Documents\\KPL-TugasBesar2\\LaporanKtmTest\\LaporanKtmTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aaron\\Documents\\KPL-TugasBesar2\\LaporanKtm\\LaporanKtm.csproj": {
+    "C:\\Users\\Aaron\\Documents\\KPL-TugasBesar2\\LaporanKtmTest\\LaporanKtmTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aaron\\Documents\\KPL-TugasBesar2\\LaporanKtm\\LaporanKtm.csproj",
-        "projectName": "LaporanKtm",
-        "projectPath": "C:\\Users\\Aaron\\Documents\\KPL-TugasBesar2\\LaporanKtm\\LaporanKtm.csproj",
+        "projectUniqueName": "C:\\Users\\Aaron\\Documents\\KPL-TugasBesar2\\LaporanKtmTest\\LaporanKtmTest.csproj",
+        "projectName": "LaporanKtmTest",
+        "projectPath": "C:\\Users\\Aaron\\Documents\\KPL-TugasBesar2\\LaporanKtmTest\\LaporanKtmTest.csproj",
         "packagesPath": "C:\\Users\\Aaron\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aaron\\Documents\\KPL-TugasBesar2\\LaporanKtm\\obj\\",
+        "outputPath": "C:\\Users\\Aaron\\Documents\\KPL-TugasBesar2\\LaporanKtmTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aaron\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,24 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
