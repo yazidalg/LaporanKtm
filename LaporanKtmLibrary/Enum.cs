@@ -7,61 +7,61 @@ public enum State
     Start,
     MembuatLaporan,
     MengeditLaporan,
-    MencariLaporan,
-    MembacaLaporan
+    Ketemu,
+    
 }
-public enum Trigger { proses, cancel };
+public enum Trigger { proses, cancel,cari,edit };
 
 // Mendefinisikan transisi dalam automata
-class Transition
-{
-    public State FromState { get; set; }
-    public State ToState { get; set; }
-    public string Input { get; set; }
-}
 
 // Mensimulasikan alur interaksi dalam aplikasi
-public class AutomataSimulator
+class StateTodo
 {
-    private State currentState;
-
-    public AutomataSimulator()
+    public class Transition
     {
-        currentState = State.Start;
-    }
+        public State StateAwal;
+        public State StateAkhir;
+        public Trigger Trigger;
 
-    public void ProcessInput(string input)
-    {
-        // Mencari transisi yang sesuai dengan state dan input saat ini
-        Transition transition = FindTransition(currentState, input);
-
-        if (transition != null)
+        public Transition(State stateAwal, State stateAkhir, Trigger trigger)
         {
-            // Memperbarui state
-            currentState = transition.ToState;
-
-            // Melakukan tindakan berdasarkan state baru
-            switch (currentState)
-            {
-                case State.MembuatLaporan:
-                    // Tampilkan formulir untuk membuat laporan
-                    break;
-                case State.MengeditLaporan:
-                    // Tampilkan formulir untuk mengedit laporan
-                    break;
-                case State.MencariLaporan:
-                    // Tampilkan formulir untuk mencari laporan
-                    break;
-                case State.MembacaLaporan:
-                    // Tampilkan laporan yang dipilih
-                    break;
-            }
+            this.StateAwal = stateAwal;
+            this.StateAkhir = stateAkhir;
+            this.Trigger = trigger;
         }
     }
 
-    private Transition FindTransition(State currentState, string input)
+    Transition[] transisi =
     {
-        // Implementasikan logika untuk mencari transisi yang sesuai
-        // ...
+        new Transition(State.Start, State.MembuatLaporan, Trigger.proses),
+        new Transition(State.MembuatLaporan, State.Ketemu, Trigger.cari),
+
+        new Transition(State.MembuatLaporan, State.Start, Trigger.cancel),
+        new Transition(State.MembuatLaporan, State.MengeditLaporan, Trigger.edit),
+
+        new Transition(State.MengeditLaporan, State.MembuatLaporan, Trigger.proses),
+      //  new Transition(State.Mengajar, PengerjaanState.bersedia, Trigger.selesai)
+    };
+
+    public State currentState = State.Start;
+    public Dictionary<string, State> tasks = new Dictionary<string, State>(); // Dictionary to store tasks with their states
+
+    public State GetNextState(State stateAwal, Trigger trigger)
+    {
+        foreach (Transition perubahan in transisi)
+        {
+            if (stateAwal == perubahan.StateAwal && trigger == perubahan.Trigger)
+            {
+                return perubahan.StateAkhir;
+            }
+        }
+        return stateAwal; // Return current state if no transition found
+    }
+
+    public void ActivateTrigger(Trigger trigger)
+    {
+        Console.WriteLine("Masukan Prose");
+         currentState = GetNextState(currentState, trigger);
+        Console.WriteLine("State Anda adalah: " + currentState);
     }
 }
