@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fajar\\source\\repos\\tubesktmfix\\LaporanKtmTest\\LaporanKtmTest.csproj": {}
+    "D:\\Alvan\\kliah\\sem4\\kpl\\LaporanKtm\\LaporanKtmTest\\LaporanKtmTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fajar\\source\\repos\\tubesktmfix\\LaporanKtmTest\\LaporanKtmTest.csproj": {
+    "D:\\Alvan\\kliah\\sem4\\kpl\\LaporanKtm\\LaporanKtmTest\\LaporanKtmTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fajar\\source\\repos\\tubesktmfix\\LaporanKtmTest\\LaporanKtmTest.csproj",
+        "projectUniqueName": "D:\\Alvan\\kliah\\sem4\\kpl\\LaporanKtm\\LaporanKtmTest\\LaporanKtmTest.csproj",
         "projectName": "LaporanKtmTest",
-        "projectPath": "C:\\Users\\fajar\\source\\repos\\tubesktmfix\\LaporanKtmTest\\LaporanKtmTest.csproj",
-        "packagesPath": "C:\\Users\\fajar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fajar\\source\\repos\\tubesktmfix\\LaporanKtmTest\\obj\\",
+        "projectPath": "D:\\Alvan\\kliah\\sem4\\kpl\\LaporanKtm\\LaporanKtmTest\\LaporanKtmTest.csproj",
+        "packagesPath": "C:\\Users\\Alvan\\.nuget\\packages\\",
+        "outputPath": "D:\\Alvan\\kliah\\sem4\\kpl\\LaporanKtm\\LaporanKtmTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\fajar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alvan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

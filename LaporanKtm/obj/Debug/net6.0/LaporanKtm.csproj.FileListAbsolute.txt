@@ -28,3 +28,11 @@ C:\Users\fajar\source\repos\tubesktmfix\LaporanKtm\obj\Debug\net6.0\refint\Lapor
 C:\Users\fajar\source\repos\tubesktmfix\LaporanKtm\obj\Debug\net6.0\LaporanKtm.pdb
 C:\Users\fajar\source\repos\tubesktmfix\LaporanKtm\obj\Debug\net6.0\LaporanKtm.genruntimeconfig.cache
 C:\Users\fajar\source\repos\tubesktmfix\LaporanKtm\obj\Debug\net6.0\ref\LaporanKtm.dll
+D:\Alvan\kliah\sem4\kpl\LaporanKtm\LaporanKtm\obj\Debug\net6.0\LaporanKtm.GeneratedMSBuildEditorConfig.editorconfig
+D:\Alvan\kliah\sem4\kpl\LaporanKtm\LaporanKtm\obj\Debug\net6.0\LaporanKtm.AssemblyInfoInputs.cache
+D:\Alvan\kliah\sem4\kpl\LaporanKtm\LaporanKtm\obj\Debug\net6.0\LaporanKtm.AssemblyInfo.cs
+D:\Alvan\kliah\sem4\kpl\LaporanKtm\LaporanKtm\obj\Debug\net6.0\LaporanKtm.csproj.CoreCompileInputs.cache
+D:\Alvan\kliah\sem4\kpl\LaporanKtm\LaporanKtm\obj\Debug\net6.0\LaporanKtm.sourcelink.json
+D:\Alvan\kliah\sem4\kpl\LaporanKtm\LaporanKtm\obj\Debug\net6.0\LaporanKtm.dll
+D:\Alvan\kliah\sem4\kpl\LaporanKtm\LaporanKtm\obj\Debug\net6.0\refint\LaporanKtm.dll
+D:\Alvan\kliah\sem4\kpl\LaporanKtm\LaporanKtm\obj\Debug\net6.0\LaporanKtm.pdb
