@@ -1,0 +1,7 @@
+﻿<Properties StartupConfiguration="{DFF4118F-5225-4439-9068-61EF648E86E8}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.LaporanKtm PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.LaporanKtmTest FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.LaporanKtmLibrary FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.LaporanKtmAPI FirstBuild="True" />
+</Properties>
