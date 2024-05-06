@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aaron\\Documents\\KPL-TugasBesar2\\LaporanKtmAPI\\LaporanKtmAPI.csproj": {}
+    "C:\\Users\\fajar\\source\\repos\\tubesktmfix\\LaporanKtmAPI\\LaporanKtmAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aaron\\Documents\\KPL-TugasBesar2\\LaporanKtmAPI\\LaporanKtmAPI.csproj": {
+    "C:\\Users\\fajar\\source\\repos\\tubesktmfix\\LaporanKtmAPI\\LaporanKtmAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aaron\\Documents\\KPL-TugasBesar2\\LaporanKtmAPI\\LaporanKtmAPI.csproj",
+        "projectUniqueName": "C:\\Users\\fajar\\source\\repos\\tubesktmfix\\LaporanKtmAPI\\LaporanKtmAPI.csproj",
         "projectName": "LaporanKtmAPI",
-        "projectPath": "C:\\Users\\Aaron\\Documents\\KPL-TugasBesar2\\LaporanKtmAPI\\LaporanKtmAPI.csproj",
-        "packagesPath": "C:\\Users\\Aaron\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aaron\\Documents\\KPL-TugasBesar2\\LaporanKtmAPI\\obj\\",
+        "projectPath": "C:\\Users\\fajar\\source\\repos\\tubesktmfix\\LaporanKtmAPI\\LaporanKtmAPI.csproj",
+        "packagesPath": "C:\\Users\\fajar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fajar\\source\\repos\\tubesktmfix\\LaporanKtmAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Aaron\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fajar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -69,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

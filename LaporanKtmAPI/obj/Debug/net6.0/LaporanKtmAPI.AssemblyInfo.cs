@@ -14,7 +14,6 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LaporanKtmAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c0db6dedd4be97e66f40f340d3feaf44b0064da")]
 [assembly: System.Reflection.AssemblyProductAttribute("LaporanKtmAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LaporanKtmAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

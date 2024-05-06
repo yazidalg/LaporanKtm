@@ -2,4 +2,6 @@
 Console.WriteLine("Hello, World!");
 
 // -aaron
-Console.WriteLine("ini codingan Aaron")
+Console.WriteLine("ini codingan Aaron");
+// -PURI
+Console.WriteLine("Puri masuk ya");
