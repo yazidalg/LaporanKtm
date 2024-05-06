@@ -1,7 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿class Program
+{
+    static void Main()
+    {
+        StateTodo Mahasiswa = new StateTodo();
 
-// -aaron
-Console.WriteLine("ini codingan Aaron");
-// -PURI
-Console.WriteLine("Puri masuk ya");
+        Mahasiswa.Run();
+    }
+}

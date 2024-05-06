@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LaporanKtmLibrary
-build_property.ProjectDir = C:\Users\fajar\source\repos\tubesktmfix\LaporanKtmLibrary\
+build_property.ProjectDir = D:\Ngoding\C#\TUBES_KPL_KTM\LaporanKtmLibrary\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
