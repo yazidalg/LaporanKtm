@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Globalization;
 using System.Linq;
 using System.Text;
@@ -98,15 +99,11 @@ namespace LaporanKtmLibrary.Output
             }
             else if (x == "1")
             {
-                string nama;
-                string NIM;
-
-                Console.WriteLine("Masukan Nama Pelapor: ");
-                nama = Console.ReadLine();
-
-                Console.WriteLine("Masukan NIM: ");
-                NIM = Console.ReadLine();
-
+                // x berupa panjang list laporan yang dibuat
+                for (int i = 0; i < x; i++) 
+                { 
+                    x
+                }
             }
             else if (x == "9")
             {
@@ -120,11 +117,30 @@ namespace LaporanKtmLibrary.Output
         {
             string x;
             Console.WriteLine("===== Edit Laporan Baru =====");
-            Console.WriteLine(" 1. ");
+            Console.WriteLine(" 1. List Laporan yang dapat diubah");
             Console.WriteLine(" 9. Exit");
 
             Console.WriteLine("Masukan: ");
             x = Console.ReadLine();
+
+            if (x != "1" || x != "9")
+            {
+                return "Masukan angka valid!";
+            } else if (x == "1")
+            {
+                // x berupa panjang list laporan yang dibuat
+                for (int i = 0; i < x; i++)
+                {
+                    x
+                }
+
+            } else if (x == "9")
+            {
+                return startPage();
+            }
+
+            return "end";
+
         }
 
         public string endPage()
