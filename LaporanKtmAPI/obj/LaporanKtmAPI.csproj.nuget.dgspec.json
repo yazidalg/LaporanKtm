@@ -1,26 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/yazidal/Documents/Development/Campus/TugasBesar/LaporanKtm/LaporanKtmAPI/LaporanKtmAPI.csproj": {}
+    "D:\\Ngoding\\C#\\TUBES_KPL_KTM\\LaporanKtmAPI\\LaporanKtmAPI.csproj": {}
   },
   "projects": {
-    "/Users/yazidal/Documents/Development/Campus/TugasBesar/LaporanKtm/LaporanKtmAPI/LaporanKtmAPI.csproj": {
+    "D:\\Ngoding\\C#\\TUBES_KPL_KTM\\LaporanKtmAPI\\LaporanKtmAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/yazidal/Documents/Development/Campus/TugasBesar/LaporanKtm/LaporanKtmAPI/LaporanKtmAPI.csproj",
+        "projectUniqueName": "D:\\Ngoding\\C#\\TUBES_KPL_KTM\\LaporanKtmAPI\\LaporanKtmAPI.csproj",
         "projectName": "LaporanKtmAPI",
-        "projectPath": "/Users/yazidal/Documents/Development/Campus/TugasBesar/LaporanKtm/LaporanKtmAPI/LaporanKtmAPI.csproj",
-        "packagesPath": "/Users/yazidal/.nuget/packages/",
-        "outputPath": "/Users/yazidal/Documents/Development/Campus/TugasBesar/LaporanKtm/LaporanKtmAPI/obj/",
+        "projectPath": "D:\\Ngoding\\C#\\TUBES_KPL_KTM\\LaporanKtmAPI\\LaporanKtmAPI.csproj",
+        "packagesPath": "C:\\Users\\puris\\.nuget\\packages\\",
+        "outputPath": "D:\\Ngoding\\C#\\TUBES_KPL_KTM\\LaporanKtmAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/yazidal/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\puris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/sdk/7.0.315/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -63,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.315/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
