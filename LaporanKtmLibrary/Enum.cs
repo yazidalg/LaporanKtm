@@ -16,6 +16,7 @@ class Transition
 {
     public State FromState { get; set; }
     public State ToState { get; set; }
+    public State FinalState { get; set; }
     public string Input { get; set; }
 }
 
