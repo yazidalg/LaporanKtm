@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 // Mendefinisikan state dalam automata
-enum State
+public enum State
 {
     Start,
     MembuatLaporan,
@@ -10,6 +10,7 @@ enum State
     MencariLaporan,
     MembacaLaporan
 }
+public enum Trigger { proses, cancel };
 
 // Mendefinisikan transisi dalam automata
 class Transition
