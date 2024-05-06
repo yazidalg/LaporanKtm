@@ -14,6 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LaporanKtmLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99e61c3afa2906c5580bfe7e86198ca4ca60803b")]
 [assembly: System.Reflection.AssemblyProductAttribute("LaporanKtmLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LaporanKtmLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
